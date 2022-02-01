@@ -28,7 +28,6 @@ const Rect2 = styled.div`
   top: 15.6%;
   right: -7%;
   transform: rotate(-26.7deg);
-  display: block;
 `;
 
 

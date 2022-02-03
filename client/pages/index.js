@@ -121,7 +121,7 @@ export default function Home() {
           </PaperOneContainer>
           <TextContainer>
             <p>
-            In the '80s, Dan Granata ran with the best of them - phone phreakers, social engineers, and the most notorious computer hackers of the era. Then he got a job at designory. 
+            In the 80s, Dan Granata ran with the best of them - phone phreakers, social engineers, and the most notorious computer hackers of the era. Then he got a job at designory. 
             </p>  
           </TextContainer>
           <PaperTwoContainer>

@@ -2,32 +2,60 @@ import Head from 'next/head';
 import styled from 'styled-components';
 
 const Background = styled.div`
-  width: 100vw;
-  height: 100vw;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0%;
   background: #022533;
 `;
 
-const Rect1 = styled.div`
+const LineOne = styled.div`
   width: 90vw;
   height: 1.7vw;
   background: #812907;
   position: absolute;
-  top: 4.3%;
-  right: -51px;
+  top: 4%;
+  right: -150px;
   transform: rotate(22deg);
 `;
 
-const Rect2 = styled.div`
-  width: 115vw;
+const LineTwo = styled.div`
+  width: 170vw;
   height: 1.7vw;
   background: #dd582f;
   position: absolute;
-  top: 15.6%;
-  right: -7%;
+  top: 15%;
+  left: -250px;
   transform: rotate(-26.7deg);
+`;
+
+const TextContainer = styled.div`
+  width: 85.9vw;
+  height: 8vw;
+  background: #F4BD40;
+  position: absolute;
+  top: 36%;
+  right: -2%; 
+  transform: rotate(9.71deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  padding: 15px;
+
+  p {
+    padding-left: 10px;
+  }
+`;
+
+const LineThree = styled.div`
+  width: 160vw;
+  height: 1.7vw;
+  background: #812907;
+  position: absolute;
+  top: 86%;
+  left: -150px;
+  transform: rotate(-4deg);
 `;
 
 
@@ -41,8 +69,15 @@ export default function Home() {
       </Head>
 
         <Background>
-        <Rect1 />
-        <Rect2 />
+          <LineOne/>
+          <LineTwo/>
+          <TextContainer>
+            <p>
+            In the '80s, Dan Granata ran with the best of them - phone phreakers, social engineers, and the most notorious computer hackers of the era. Then he got a job at designory. 
+            </p>
+            
+          </TextContainer>
+          <LineThree />
         </Background>
         
 
